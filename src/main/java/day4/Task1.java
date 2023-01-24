@@ -51,7 +51,7 @@ public class Task1 {
 
         int sum = 0;
         for(int s : array) {
-            sum = sum + s;
+            sum += s;
         }
         System.out.println("Sum of all array elements: " + sum);
     }
